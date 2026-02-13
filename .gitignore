@@ -24,3 +24,11 @@ build/
 # editor
 .vscode/
 .idea/
+
+# notebooks
+notebooks/
+
+# docs
+docs/*
+!docs/index.md
+!docs/manual/
