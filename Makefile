@@ -1,15 +1,26 @@
-.PHONY: fmt lint test typecheck
+.PHONY: fmt lint test test-all test-unit test-integration typecheck ci
 
 fmt:
-	ruff format .
-	ruff check . --fix
+	uv run ruff format .
+	uv run ruff check . --fix
 
 lint:
-	ruff check .
-	ruff format --check .
+	uv run ruff check .
+	uv run ruff format --check .
 
 test:
-	pytest
+	test: test-unit
+
+test-all:
+	uv run pytest
+
+test-unit:
+	uv run pytest -m "not integration"
+
+test-integration:
+	uv run pytest -m integration
 
 typecheck:
-	mypy src
+	uv run mypy src
+
+ci: lint test-unit
