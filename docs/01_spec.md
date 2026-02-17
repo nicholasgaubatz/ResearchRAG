@@ -29,7 +29,7 @@ Outputs
 - Required failure behavior: "If no good sources, then refuse + explain + suggest next step"
 
 Citation policy
-- See [citation_format.md](citation_format.md)
+- See [citation_format.md](02_citation_format.md)
 
 Retrieval assumptions
 - Chunking strategy: TODO
