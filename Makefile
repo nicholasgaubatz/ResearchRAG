@@ -1,4 +1,4 @@
-.PHONY: fmt lint test test-all test-unit test-integration typecheck ci
+.PHONY: fmt lint test test-all test-unit test-integration typecheck ci validate-data
 
 fmt:
 	uv run ruff format .
@@ -24,3 +24,6 @@ typecheck:
 	uv run mypy src
 
 ci: lint test-unit
+
+validate-data:
+	uv run python3 scripts/validate_data.py

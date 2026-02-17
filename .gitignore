@@ -29,6 +29,12 @@ build/
 notebooks/
 
 # docs
-docs/*
-!docs/index.md
-!docs/manual/
+docs/decisions/
+docs/experiments/
+docs/manual/
+docs/notes/
+docs/paper/
+docs/results/
+
+# data
+data/

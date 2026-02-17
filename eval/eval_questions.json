@@ -1,0 +1,42 @@
+[
+    {
+        "id": "q001",
+        "question": "What is an AdaFNN and, on a very high level, how does it work?",
+        "type": "concept",
+        "doc_ids": ["yao_adafnn_2001"],
+        "must_cite": true,
+        "notes": "Expect an explanation from the paper."
+    },
+    {
+        "id": "q002",
+        "question": "Can you compare functional linear regression with a scalar output vs. a functional output? Assume we have a single functional input in both cases. Use Ramsay and Silverman (2005) as your main focus.",
+        "type": "compare",
+        "doc_ids": ["TODO"],
+        "must_cite": true,
+        "notes": "Expect a comparison between chapters 15 and 16 of Ramsay and Silverman (2005)."
+    },
+    {
+        "id": "q003",
+        "question": "What are some different types of functional neural networks?",
+        "type": "search",
+        "doc_ids": ["TODO"],
+        "must_cite": true,
+        "notes": "Expect broad overviews of AdaFNN and others."
+    },
+    {
+        "id": "q004",
+        "question": "Compare smoothing splines vs. FPCA-based smoothing for sparse functional data.",
+        "type": "compare",
+        "doc_ids": ["TODO"],
+        "must_cite": true,
+        "notes": "TODO"
+    },
+    {
+        "id": "q005",
+        "question": "What are some advantages and disadvantages of using different kinds of basis functions for smoothing? Is there any basis for which optimal smoothing guarantees exist?",
+        "type": "concept+search",
+        "doc_ids": ["TODO"],
+        "must_cite": true,
+        "notes": "Expect comparison of bases like polynomial, Fourier, B-spline, etc. Also expect discussion of B-splines minimizing PENSEE found in Ramsay and Silverman (2005) section 5.2.4."
+    }
+]
