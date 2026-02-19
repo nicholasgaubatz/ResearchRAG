@@ -105,7 +105,7 @@ class CitationQueryEngineWorkflow(Workflow):
             )
 
             for chunk_idx, text_chunk in enumerate(text_chunks):
-                text = f"Source {len(new_nodes)+1}:\n{text_chunk}\n"
+                text = f"Source {len(new_nodes) + 1}:\n{text_chunk}\n"
 
                 new_node = NodeWithScore(
                     node=TextNode(
