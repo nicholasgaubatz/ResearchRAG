@@ -11,7 +11,7 @@ Authors:
 This project develops a **retrieval-augmented generation (RAG)** assistant designed to assist with:
 - Mathematical research (theorem and proof lookups)
 - Technical document summarization
-- Citation-grounded question answering over FDA-specific copora
+- Citation-grounded question answering over FDA-specific corpora
 
 The aim is the build a system that is:
 - **Citation-first and fail-closed**
@@ -36,6 +36,16 @@ This project explores whether a carefully engineered RAG pipeline can provide
 1. Reliable citation-grounded answers involving technical concepts
 2. Reduced hallucination in high-stakes contexts
 3. Identification of theorems across differing notations, a common occurrence in the FDA field
+
+## Benefits
+
+TODO
+
+- Reduced lag time
+- Environmental friendliness
+- Completely free (minus electricity)
+- Specialized knowledge
+- Security
 
 ---
 

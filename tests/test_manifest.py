@@ -11,6 +11,6 @@ def test_manifest_matches_pdfs():
     if not manifest.exists():
         pytest.skip("Local data/manifest not present; skipping.")
 
-    from validate_manifest import validate_manifest
+    from researchrag.validate_manifest import validate_manifest
 
     validate_manifest(raw_dir)
